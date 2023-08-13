@@ -7,4 +7,4 @@ class TestSternmanEngine(unittest.TestCase):
         last_service_mileage = 10000
         warning_light_is_on = True
         engine = SternmanEngine(last_service_mileage, warning_light_is_on)
-        self.assertTrue(engine.needs_service)
+        self.assertTrue(engine.needs_service())
